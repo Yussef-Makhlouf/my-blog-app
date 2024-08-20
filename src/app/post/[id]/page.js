@@ -19,12 +19,12 @@ const Post = () => {
     }
   }, [id]);
 
-  if (!post) return <p>Loading...</p>;
+  if (!post) return <p className="text-2xl font-bold text-center text-red-500 mt-10 ">Loading...</p>;
 
   return (
-    <div>
-      <h2 className="text-2xl font-bold">{post.title}</h2>
-      <p>{post.body}</p>
+    <div className="post-page p-4 mt-10 shadow-lg ">
+      <h2 className="text-2xl font-bold text-center ">{post.title}</h2>
+      <p className="text-lg mt-4 ">{post.body}</p>
     </div>
   );
 };

@@ -43,6 +43,7 @@ const Navbar = () => {
           <li><Link href="/aboutUs">About Us</Link></li>
           <li><Link href="/contactUs">Contact Us</Link></li>
           <li><Link href="/blog">Blog</Link></li>
+          <li><Link href="/login">Login</Link></li>
         </ul>
       </div>
     </nav>
