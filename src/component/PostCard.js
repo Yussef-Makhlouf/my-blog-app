@@ -18,7 +18,7 @@ const PostCard = ({ post }) => {
       <h3 className="post-title">{post.title}</h3>
       <p className="post-body">{post.body}</p>
       <div className="post-actions">
-        <button className="like-button" onClick={handleLike}>
+        <button className="like-button text-blue-500 hover:text-blue-700 transition-colors duration-300 ease-in-out font-bold text-lg  mr-4 " onClick={handleLike}>
           Like ({likes})
         </button>
         <button className="read-more-button" onClick={navigateToPost}>
