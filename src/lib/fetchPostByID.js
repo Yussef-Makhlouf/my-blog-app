@@ -1,4 +1,3 @@
-// import clientPromise from './mongodb';
 import { ObjectId } from 'mongodb';
 import clientPromise from "./mongodb";
 export async function fetchPostByID(id) {
